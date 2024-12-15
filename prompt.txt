@@ -1,0 +1,15 @@
+Prompt 1: Can you create a database schema for a contact book application. The schema needs to include three tables: one for storing contacts, one for storing multiple emails per contact, and one for storing multiple phone numbers per contact. Make sure the relationships between the tables are properly set up, and deleting a contact should automatically delete its associated emails and phone numbers.
+
+Prompt 2: Can you create a Python function to handle connecting to a SQLite database? This function needs to centralize the connection logic for the application, making it easier to interact with the database.
+
+Prompt 3: Can you write another Python function to add a new contact to the database. The function should accept a name, a list of emails, and a list of phone numbers. Validate that the emails and phone numbers are in the correct format before adding them to the database.
+
+Prompt 4: Can you create a Python function to retrieve all contacts from the database? This function should include the contact's name, their associated emails, and phone numbers.
+
+Prompt 5: Can you write another Python function that allows searching for contacts in the database. The search should check if the search term matches any part of a contact's name, email address, or phone number, and returns the results with all the details.
+
+Prompt 6: Can you create a Python class to handle the main operations of a contact book application using a text-based user interface (TUI)? This class should use the urwid library to create a menu with options to add a contact, view all contacts, search contacts by name, email, or phone, delete a contact by name, and exit the program.
+
+Prompt 7: Can you implement a method in the TUI class that allows users to add a new contact? The method should collect the contact's name, a list of emails, and a list of phone numbers from the user via input fields, validate the inputs, and store the information in the database.
+
+Prompt 8: Can you implement methods in the TUI class to view all contacts, search for contacts by name, email, or phone, and delete a contact by name? Please add appropriate messages to the user and handle edge cases, like "no results found" or "invalid input".

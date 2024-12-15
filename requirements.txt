@@ -1,0 +1,2 @@
+sqlite3  # Bundled with Python, no external package needed.
+urwid==2.1.2  # For building the Text User Interface (TUI).
